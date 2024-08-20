@@ -9,7 +9,7 @@
                     <h5 class="card-title">Product title</h5>
                     <p class="card-text">$20.5</p>
                     <p class="card-text">Product description</p>
-                    <a href="#" class="btn btn-primary">Add To Cart</a>
+                    <a href="{{ route('cart') }}" class="btn btn-primary">Add To Cart</a>
                 </div>
             </div>
             <div class="card" style="width: 18rem;">
